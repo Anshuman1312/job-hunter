@@ -1,0 +1,23 @@
+# Credentials
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local state
+applications.db
+applications.db-*
+browser_session/
+logs/
+data/latest_jobs.json
+data/jobs_*.json
+
+# Private assets (never commit a CV)
+assets/resume.pdf
